@@ -1,7 +1,7 @@
-const midi = require('midi');
+import { Output } from 'midi';
 
 // Create a new output instance
-const output = new midi.Output();
+const output = new Output();
 
 // Get the available MIDI output ports
 const portCount = output.getPortCount();

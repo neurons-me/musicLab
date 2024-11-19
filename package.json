@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "musiclab",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "concurrently \"npm:dev:*\"",
     "dev:api": "node index.js",
